@@ -26,7 +26,8 @@ function About(){
   <p style={{marginLeft:"20px",color:"blue",display:"inline"}}>React.JS</p>
   </h3>
   <h3 style={{marginLeft:"20px",color:""}}>API's</h3>
-  <h3 style={{marginLeft:"20px",color:""}}>Linux</h3>
+  <h3 style={{marginLeft:"20px",color:""}}>*Linux</h3>
+  <h3 style={{marginLeft:"20px",color:""}}>Version COntrol</h3>
   <h3>
   <p style={{marginLeft:"20px",color:"orange",display:"inline"}}>*SQL</p>
   </h3>
