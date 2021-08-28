@@ -1,0 +1,92 @@
+.HomeBody{
+  width: 100vw;
+  height: 100vh;
+  background-color: #F7F3E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  margin: 0;
+  display: inline;
+  color:white;
+  color: #F05945;
+  font-family: 'Yesteryear', cursive;
+  font-size: 90px;
+  font-weight: lighter;
+
+}
+h2{
+  display: inline;
+  margin: 0;
+  font-family: 'Staatliches', cursive;
+  color:#5EAAA8;
+  font-size: 30px;
+  font-style: italic;
+}
+.thisis{
+  width:auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.welcome{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.welbod{
+height:auto;
+width:100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+cursor: default;
+}
+.options{
+  margin: 70px;
+  width:80vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+button{
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  height:70px;
+  width:100px;
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #F7F3E9;
+  border-color: #5EAAA8;
+  box-shadow: 3px 3px black;
+  cursor: pointer;
+}
+button:hover{
+  background-color:#A3D2CA;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #2D4059;
+  height:2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+ @media only screen and (max-width: 470px){
+   button:active{
+     background-color:#A3D2CA;
+   }
+   .options{
+     flex-direction: column;
+     height: 35vh;
+   }
+ }
